@@ -1,4 +1,8 @@
 Spotify project
-<img width="1317" height="555" alt="Spotify" src="https://github.com/user-attachments/assets/5f3fc241-0114-4b16-a7dd-87777cfb7e2a" />
+
+<img width="1198" height="572" alt="Screenshot 2026-01-08 182949" src="https://github.com/user-attachments/assets/622dc03a-a390-4e3d-9f80-b1bc6ca8a2f5" />
+
+
+
 
 
