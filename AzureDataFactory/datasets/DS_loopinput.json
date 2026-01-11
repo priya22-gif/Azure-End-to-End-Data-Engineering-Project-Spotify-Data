@@ -1,0 +1,19 @@
+{
+	"name": "DS_loopinput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "loop_input (1).json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
