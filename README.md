@@ -1,4 +1,4 @@
-# 🎵 Spotify End-to-End Azure Data Engineering Project
+# 🎵 Azure End-to-End Data Engineering Project – Spotify Data
 
 ## 📌 Project Overview
 
