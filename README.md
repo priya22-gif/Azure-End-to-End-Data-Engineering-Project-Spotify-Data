@@ -1,5 +1,9 @@
 # 🎵 Azure End-to-End Data Engineering Project – Spotify Data
 
+## 📌 Problem Statement
+
+Organizations often receive Spotify data through APIs in raw, semi-structured formats that are not suitable for analytics. This project focuses on building an automated, scalable Azure data pipeline to ingest, transform, and store Spotify data as analytics-ready datasets using modern data engineering best practices.
+
 ## 📌 Project Overview
 
 This project implements a **real-world end-to-end data engineering pipeline on Azure** using the Spotify dataset.  
@@ -7,7 +11,20 @@ It showcases how to design **scalable, incremental, and analytics-ready pipeline
 
 The solution ingests data incrementally from **Azure SQL Database**, processes it through **Bronze, Silver, and Gold layers**, applies **Slowly Changing Dimensions**, enforces **data quality checks**, and delivers curated datasets for business reporting.
 
-🏗️ **Architecture Overview:**
+## 🎯 Business Use Cases
+
+- Analyze top-performing artists, albums, and tracks
+- Identify music popularity and release trends over time
+- Enable analytics and reporting for content insights
+
+## 📊 Key KPIs Enabled
+
+- Track popularity scores
+- Artist-wise and album-wise performance
+- Top tracks and artists by popularity
+- Release trends by yea
+
+## 🏗️ Architecture Overview:
 
 <img width="1020" height="544" alt="Screenshot 2026-01-11 191214" src="https://github.com/user-attachments/assets/2e66c2bb-625c-4942-81d9-ad43af83be4a" />
 
@@ -101,32 +118,6 @@ The solution ingests data incrementally from **Azure SQL Database**, processes i
 
 ---
 
-## 🛠️ Technologies & Tools
-
-**Cloud & Storage**
-- Azure SQL Database
-- Azure Data Lake Storage Gen2
-
-**Orchestration**
-- Azure Data Factory (ADF)
-
-**Processing & Modeling**
-- Azure Databricks
-- Delta Lake
-- Auto Loader
-- Lakeflow Declarative Pipelines
-- Unity Catalog
-
-**Deployment & Frameworks**
-- Databricks Asset Bundles
-- Jinja Templates
-- JSON metadata
-
-**Analytics**
-- Power BI
-
----
-
 ## ▶️ How to Run the Project
 
 1. Provision Azure resources (SQL DB, ADLS, ADF, Databricks)
@@ -140,23 +131,9 @@ The solution ingests data incrementally from **Azure SQL Database**, processes i
 
 ---
 
-## ⭐ Resume-Ready Highlights
+## 🧾 Outcome
 
-- Designed and implemented **end-to-end Azure data engineering pipeline**
-- Built **incremental ingestion framework using CDC and Azure Data Factory**
-- Implemented **Medallion Architecture with Delta Lake**
-- Developed **SCD Type 2 dimensions and SCD Type 1 fact tables**
-- Used **Databricks Auto Loader and Lakeflow declarative pipelines**
-- Created **metadata-driven transformations using Jinja templates**
-- Enforced **data quality expectations**
-- Deployed Databricks workloads using **Asset Bundles**
-- Integrated curated data with **Power BI dashboards**
-
----
-
-## 🧾 Conclusion
-
-This project demonstrates **enterprise-grade Azure data engineering practices**, including incremental ingestion, scalable transformations, declarative modeling, governance, and analytics enablement. It reflects real-world patterns used in modern data platforms and is suitable for production deployments.
+This project demonstrates **enterprise-grade Azure data engineering practices** that converts raw Spotify API data into structured, reliable, and analytics-ready datasets including incremental ingestion, scalable transformations, declarative modeling, governance, and analytics enablement. It reflects real-world patterns used in modern data platforms and is suitable for production deployments.
 
 ---
 
