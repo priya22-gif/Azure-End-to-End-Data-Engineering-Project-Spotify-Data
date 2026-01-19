@@ -4,7 +4,7 @@
 
 Organizations often receive Spotify data through APIs in raw, semi-structured formats that are not suitable for analytics. This project focuses on building an automated, scalable Azure data pipeline to ingest, transform, and store Spotify data as analytics-ready datasets using modern data engineering best practices.
 
-## 📌 Project Overview
+## 🔍 Project Overview
 
 This project implements a **real-world end-to-end data engineering pipeline on Azure** using the Spotify dataset.  
 It showcases how to design **scalable, incremental, and analytics-ready pipelines** using **Azure Data Factory, Azure Databricks, Delta Lake, and Power BI**.
