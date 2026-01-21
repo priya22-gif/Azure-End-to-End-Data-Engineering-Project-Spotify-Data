@@ -22,7 +22,7 @@ The solution ingests data incrementally from **Azure SQL Database**, processes i
 - Track popularity scores
 - Artist-wise and album-wise performance
 - Top tracks and artists by popularity
-- Release trends by yea
+- Release trends by year
 
 ## 🏗️ Architecture Overview:
 
